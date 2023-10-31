@@ -12,11 +12,10 @@ data = pd.DataFrame({
 data
 
 #acessing the sqlite server and oppening the connection:
-base = sqlite3.connect('mydatabase.db') 
+base = sqlite3.connect('mydatabase.db')
 
 #using the 'to sql' method to save the dataframe to a table:
 data.to_sql('tibble', base, if_exists='replace', index=False)
 
 #closing the connection to the database:
 base.close()
-
