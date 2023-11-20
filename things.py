@@ -5,7 +5,7 @@ import sqlite3
 #creating a tibble for using as database:
 data = pd.DataFrame({
     'ID':[1,2,3,4],
-    'Name': ['Lily', 'Rose', 'Hydrangea', 'Sunflower'] 
+    'Name': ['Lily', 'Rose', 'Hydrangea', 'Sunflower'], 
     'Color': ['White','Red', 'Blue','Yellow']
     })
 
